@@ -48,7 +48,7 @@ Filename -> Project Filename -> Info -> localizations -> +
 <img width="332" alt="Bildschirmfoto 2022-10-20 um 21 05 15" src="https://user-images.githubusercontent.com/104503995/199471807-39d5ff45-e7b2-4ca5-a2b6-960932361a75.png"> <br>
 Number t0 - tn are the serial number of all the texts. If more texts are needed, text number need to be added in all localization files and allTexts.swift file. 
 * 3) Google sheet to translate <br>
-[Google Sheet] (https://docs.google.com/spreadsheets/d/1OzPLpF9lopojoeAplmBRKWZ5AqnirX3fSh84Eeg-76g/edit#gid=0)
+[Google Sheet] (https://docs.google.com/spreadsheets/d/1OzPLpF9lopojoeAplmBRKWZ5AqnirX3fSh84Eeg-76g/edit?usp=sharing)
 
 ## 4. Connect to server
 Swift files for connection are in the folder toServer. If the login data changes, the parameters are also in the files in the folder to find.
