@@ -32,12 +32,9 @@ struct showFiles: View {
             Text((texts[35].localizedStr(language: (selectedLang.lang == .zh) ? "zh-Hans" : selectedLang.lang.rawValue))).font(.title2).fontWeight(.bold)
             Spacer()
             RecordingList(audioRecorder: audioRecorder)
-            
         }
         .onAppear {
-    
             audioRecorder.fetchRecordings()
-
         }.onReceive(NotificationCenter.default.publisher(for: .refreshNavigationBar)) { (notif) in
             let index:Int = notif.object as! Int
             // 刷新导航栏

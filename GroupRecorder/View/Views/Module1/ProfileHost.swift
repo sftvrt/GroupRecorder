@@ -9,15 +9,14 @@ import SwiftUI
 
 struct ProfileHost: View {
     @EnvironmentObject var rootVM: RootViewModel
-    
     @Environment(\.editMode) var mode
-    
     @EnvironmentObject var userData: UserData
-    
     @State var draftProfile = Profile.default
+    @EnvironmentObject var selectedLanguage : LanguageSettings
+    @EnvironmentObject var selectedLang : LanguageSettings
     
     var cancelButton: some View {
-        Button(self.mode?.wrappedValue == .active ? "Cancel" : "") {
+        Button(self.mode?.wrappedValue == .active ? (texts[24].localizedStr(language: (selectedLang.lang == .zh) ? "zh-Hans" : selectedLang.lang.rawValue)) : "") {
             self.draftProfile = self.userData.profile
             self.mode?.animation().wrappedValue = .inactive
             self.rootVM.tabNavigationBarLeadingItems = .init(cancelButton)
@@ -27,7 +26,7 @@ struct ProfileHost: View {
     }
     
     var editButton : some View{
-        Button(self.mode?.wrappedValue == .active ? "Done" : "Edit") {
+        Button(self.mode?.wrappedValue == .active ? (texts[25].localizedStr(language: (selectedLang.lang == .zh) ? "zh-Hans" : selectedLang.lang.rawValue)) : (texts[29].localizedStr(language: (selectedLang.lang == .zh) ? "zh-Hans" : selectedLang.lang.rawValue))) {
             self.mode?.animation().wrappedValue = (self.mode?.wrappedValue == .active ?  .inactive : .active)
             self.rootVM.tabNavigationBarLeadingItems = .init(cancelButton)
             self.rootVM.tabNavigationBarTrailingItems = .init(editButton)

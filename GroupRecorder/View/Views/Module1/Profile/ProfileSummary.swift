@@ -42,14 +42,19 @@ struct ProfileSummary: View {
                 
                 Text("Regionale Herkunft:\(userData.profile.regionaleHerkunft)")
                 
-                Text("Standort: \(userCity)")
+                HStack{
+                    Button(action: {
+                        locationViewModel.requestPermission()
+                    }, label: {
+                       // Label("Allow tracking", systemImage: "location")
+                        Image(systemName: "location")
+                    })
+                    
+                    Text("Standort: \(userCity)")
+                }
+               
                 
-                Button(action: {
-                    locationViewModel.requestPermission()
-                }, label: {
-                   // Label("Allow tracking", systemImage: "location")
-                    Image(systemName: "location")
-                })
+                
                 
              //   Text("Latitude: \(userLatitude)")
               //  Text("Longitude: \(userLongitude)")
