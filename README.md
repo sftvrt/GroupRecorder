@@ -6,7 +6,7 @@ The captain has two pages. The first one is for enter the name of a meeting and 
 Once the player pressed into their session, they will start advertising. Until they get the invitation from player and accept it. <br>
 For every meeting there will be a txt file with date and time in the data name created. All the participants personal information will be listed in the file. Besides, the time stamp for recording can also be found in the file.
 
-### Txt file Explanation:
+### Json file Explanation:
 Take a look of the following example: [{"userLongitude":"","userCity":"","timeInfo":{"sendMeetingTime":"16596808244 24","startRecordingTime":"1659680825212","stopRecordingTime":"165968082 7868"},"username":`"Benutzername821"`,"userLatitude":"","Alter":"Ihr Alter","regionaleHerkunft":"Ihre Herkunft","userCountry":"","Geschlecht":"weiblich"},{"userLongitude":"","userCit y":"","timeInfo":{"startRecordingTime":"1659680825746","stopRecordingTime": "1659680827416","receiveMeetingTime":"1659680823898"},"username":`"Be nutzername675"`,"userLatitude":"","Alter":"Ihr Alter","regionaleHerkunft":"Ihre Herkunft","userCountry":"","Geschlecht":"weiblich"}] <br>
 
 There are two users in the example file: Benutzername 821 and Benutzername 675. SendMeetingTime is the time in ms for sending “start
