@@ -53,6 +53,7 @@
 		37C29922289CF7FB00D5696A /* newMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C29921289CF7FB00D5696A /* newMenuView.swift */; };
 		37C2995E289CFDCE00D5696A /* showFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C2995D289CFDCE00D5696A /* showFiles.swift */; };
 		37CA69DD254ED51B002FA92E /* SpielleiterUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA69DC254ED51B002FA92E /* SpielleiterUI.swift */; };
+		37DD34312912795B00633D86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37DD34302912795A00633D86 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		37C29921289CF7FB00D5696A /* newMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newMenuView.swift; sourceTree = "<group>"; };
 		37C2995D289CFDCE00D5696A /* showFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showFiles.swift; sourceTree = "<group>"; };
 		37CA69DC254ED51B002FA92E /* SpielleiterUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpielleiterUI.swift; sourceTree = "<group>"; };
+		37DD34302912795A00633D86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 		378167D425349C0C00C81F70 /* GroupRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				37DD34302912795A00633D86 /* README.md */,
 				37FF6E50290292E70023D59F /* toServer */,
 				375D580628D3486800292BED /* newRecorder */,
 				37E0956225A6506C006EAC0A /* ViewModell */,
@@ -490,6 +493,7 @@
 				373C1ADC2843AB9300D56A6F /* silence1s.wav in Resources */,
 				37C29914289CF68400D5696A /* Localizable.strings in Resources */,
 				378167E225349C1100C81F70 /* LaunchScreen.storyboard in Resources */,
+				37DD34312912795B00633D86 /* README.md in Resources */,
 				378167DF25349C1100C81F70 /* Preview Assets.xcassets in Resources */,
 				378167DC25349C1100C81F70 /* Assets.xcassets in Resources */,
 				379E2D23283CC2D1003807A4 /* testAudio.wav in Resources */,
