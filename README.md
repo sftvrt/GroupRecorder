@@ -46,7 +46,7 @@ Filename -> Project Filename -> Info -> localizations -> +
 <img width="908" alt="Bildschirmfoto 2022-10-20 um 20 56 10" src="https://user-images.githubusercontent.com/104503995/199471698-d672c5d1-eb26-424b-9639-b1e144b46a91.png">
 * 2). Edit Localization
 <img width="332" alt="Bildschirmfoto 2022-10-20 um 21 05 15" src="https://user-images.githubusercontent.com/104503995/199471807-39d5ff45-e7b2-4ca5-a2b6-960932361a75.png"> <br>
-Number t0 - tn are the serial number of all the texts. If more texts are needed, text number need to be added in all localization files and allTexts.swift file. 
+Number t0 - tn are the serial number of all the texts. If more texts are needed, text number need to be added in all localization files and allTexts.swift file. <br>
 * 3) Google sheet to translate <br>
 [Google Sheet] (https://docs.google.com/spreadsheets/d/1OzPLpF9lopojoeAplmBRKWZ5AqnirX3fSh84Eeg-76g/edit?usp=sharing)
 
